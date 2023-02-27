@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\cplsnController;
+use App\Http\Controllers\cplpController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [cplsnController::class, 'index']);
+Route::resource('cplsn', cplsnController::class);
+Route::get('/cpl-p', [cplpController::class, 'index']);
+Route::resource('cplp', cplpController::class);

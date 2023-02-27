@@ -7,25 +7,25 @@
     <div class="collapse navbar-collapse" id="mainMenu">
         <ul class="navbar-nav ml-auto text-uppercase f1">
         <li>
-            <a href="#home" class="active active-first">home</a>
+            <a href="/" class="active active-first">CPL-SN</a>
         </li>
         <li>
-            <a href="#about">about us</a>
+            <a href="/cpl-p">CPL-Prodi</a>
         </li>
         <li>
-            <a href="#service">services</a>
+            <a href="#service">Profil Lulusan</a>
         </li>
         <li>
-            <a href="#project">projects</a>
+            <a href="#project">MK</a>
         </li>
         <li>
-            <a href="#team">team</a>
+            <a href="#team">BK</a>
         </li>
         <li>
-            <a href="#testimony">testimonils</a>
+            <a href="#testimony">CPMK</a>
         </li>
         <li>
-            <a href="#contact">contact</a>
+            <a href="#contact">SubCPMK</a>
         </li>
         </ul>
     </div>
